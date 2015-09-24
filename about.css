@@ -69,7 +69,7 @@ header {
 #logo img {
   max-width: 150px;
   border: 5px solid #fff;
-  border-radius: 100%;
+  border-radius: 10%;
 }
 
 
