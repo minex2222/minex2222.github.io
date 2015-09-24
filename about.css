@@ -1,0 +1,152 @@
+/* ユニバーサルセレクタで余白を削除している*/
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+header p{
+  margin: -10px 0px;
+}
+
+
+
+/* フォント設定、背景を灰色に変更、フォントサイズ変更*/
+  body {
+    font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+    background-color: #ddd;
+    font-size: 14px;
+  }
+
+
+/* ナビゲーション上下マージンと、横並びにする
+  margin: 10px 20px 30px 40px;  （上 右 下 左）*/
+  nav ul li {
+    margin: 0 20px;
+    display: inline-block;
+  }
+
+
+/* ナビゲーションをセンターにする。バックを白に変更
+  nav {
+    text-align: center;
+    background: #fff;
+  }
+*/
+
+/* Homeなどの下線を削除、色設定、太さ変更
+  nav ul li a {
+    text-decoration: none;
+    color: #999;
+    font-weight: bold;
+  }
+*/
+
+/* 選択しているメニューの色変更
+  nav ul li a.selected {
+    color: #000;
+  }
+*/
+
+/* 背景画像、配置場所、サイズ、リピートなし、画像の下を100px伸ばす*/  
+header {
+  background-image: url("sea.JPG");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+}
+
+
+/* 顔の写真を上下20px余白、名前をセンター*/  
+#logo {
+  padding: 100px 0;
+  text-align: center;
+}
+
+
+/* 丸のサイズ、線幅 線種 色、角丸の値*/  
+#logo img {
+  max-width: 150px;
+  border: 5px solid #fff;
+  border-radius: 100%;
+}
+
+
+/* 文字間隔、文字色、右方向の影の長さ/下方向の影の長さ/ぼかし具合/影の色 */  
+#logo h1 {
+  letter-spacing: 0em;
+  color: white;
+  font-weight:bold;
+  text-shadow: 2px 2px 5px #4892cb,
+  -2px 2px 3px #4892cb,
+  2px -2px 3px #4892cb,
+  -2px -2px 3px #4892cb;
+}
+
+#about ul {
+  padding: 0px 20px;
+}
+
+
+
+/* 下の四角の箱の設定
+　 横幅最大値、マージン上/左右/下、色 */  
+.container {
+  max-width: 800px;
+  margin: -70px auto 0;
+  background-color: #fff;
+}
+
+
+/* 文字をパディング*/  
+section {
+  padding: 20px 30px;
+}
+
+
+/* Aboutのパディング、配置、文字間隔*/  
+section h2 {
+  padding: 0px −10px 0px 0;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+
+#about h2{
+  font-size:35px;
+  font-weight:bold;
+}
+
+
+/* 上下のパディング、divの14pxから少し小さく、文字位置、背景色、文字色*/  
+footer {
+  padding: 20px 0;
+  font-size: 93%;
+  text-align: center;
+  background-color: #ccc;
+  color: #666;
+}
+
+
+/* 特定の文字を色変更
+span.red {
+  color: red;
+}
+*/  
+
+
+/* 課題の画像サイズ*/  
+.image img {
+  max-width: 120px;
+  float: left;
+  margin-right:20px;
+}
+
+
+
+h3 {
+  font-size: 150%;
+  font-weight: bold;
+  margin-bottom:20px;
+}
+
